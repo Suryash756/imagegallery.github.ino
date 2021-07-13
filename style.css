@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+    background-color: white;
+}
+
+#img{
+    height:500px;
+    width: 1500px;
+    border: solid;
+}
+#Home{
+    border: solid;
+}
+.menu{
+    background-color: black;
+    list-style: none;
+    position: fixed;
+    margin:5px auto;
+    top: 0;
+    padding-left: 500px;
+    cursor: pointer;
+    font-family: fantasy;
+    z-index: 99999;
+    opacity: 0.8;
+    width: 100%;
+}
+.menu:hover{
+    opacity: 1;
+}
+
+.links{
+    float: left;
+    padding: 10px;
+    font-size: 30px;
+    text-shadow: 2px 2px black;
+    color:blue;
+}
+ 
+.links:hover{
+    color: red;
+    text-shadow: 2px 2px black;
+    text-decoration: underline;
+}
+img{
+    height:300px;
+    width:200px;
+    transition: transform.2s;
+}
+img:hover{
+    transform: scale(0.9);
+}
